@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <button id="webcamButton" onclick="toggleWebcam()">Start Webcam</button>
+    <br>
+    <video id="webcamVideo" width="640" height="480" style="display: none;"></video>
+    <canvas id="bboxCanvas" width="640" height="480" style="display: none;"></canvas>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

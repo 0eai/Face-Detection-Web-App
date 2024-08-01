@@ -1,0 +1,8 @@
+flask
+opencv-python-headless
+numpy
+Pillow
+transformers
+ultralytics
+huggingface_hub
+torch
